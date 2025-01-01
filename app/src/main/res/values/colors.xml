@@ -1,0 +1,8 @@
+<resources>
+    <color name="background">#4c91aa</color> <!-- Fondo -->
+    <color name="buttonColor">#aa4c91</color> <!-- Color del botón -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Color del texto del botón -->
+    <color name="primaryTextColor">#FFFFFF</color> <!-- Texto principal (blanco) -->
+    <color name="secondaryTextColor">#FFFFFF</color> <!-- Texto secundario (blanco) -->
+    <color name="spinnerColor">#4c62aa</color> <!-- Color del Spinner -->
+</resources>

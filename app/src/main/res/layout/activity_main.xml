@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <!-- EditText para la cantidad -->
+    <EditText
+        android:id="@+id/inputCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:textColor="@color/primaryTextColor"
+        android:background="@drawable/custom_edittext_bg"
+        android:padding="12dp" />
+
+    <!-- Spinner para la moneda de origen -->
+    <Spinner
+        android:id="@+id/spinnerMonedaOrigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/spinnerColor"
+        android:spinnerMode="dropdown" />
+
+    <!-- Spinner para la moneda de destino -->
+    <Spinner
+        android:id="@+id/spinnerMonedaDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/spinnerColor"
+        android:spinnerMode="dropdown" />
+
+    <!-- Botón de conversión -->
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        android:textColor="@color/buttonTextColor"
+        android:background="@color/buttonColor"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- TextView para mostrar el resultado de la conversión -->
+    <TextView
+        android:id="@+id/resultadoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textColor="@color/primaryTextColor"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+
+</LinearLayout>
